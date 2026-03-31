@@ -119,4 +119,10 @@ Esses dados podem ser de vários tipos, como texto livre, imagens, vídeos, áud
 
 ![Dados](../Imagens/bigData.png)
 
+**Resume da Arquitetura de Dados**:
+|Relacional(SQL) | Não-Relacional(NoSQL) |
+|----------------|-----------------------|
+|Estrutura rígida(tabelas) | Flexibilidade(Documentos/Gravos) |
+|ACID(Segurança Total) | Escalabilidade e alta disponibilidade |
+|Consistência Matemática | Performance em ambientes Distrbuídos |
 
