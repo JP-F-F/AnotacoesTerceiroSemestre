@@ -66,4 +66,27 @@ A definição oficial(NIST): Um modelo que permite acesso sob demanda via redes 
 2. Nuvem Privada: Infraestruturas exclusivas e utilizadas internamente pelas empresas.
 3. Nuvem Híbrida: A combinação Estratégica de ambientes públicos e privados.
 
-Com o Cloud Computing, as empresas podem alugar a capacidade de armazenamento e processamento de que precisam de provedores de serviços em nuvem.
+Com o Cloud Computing, as empresas podem alugar a capacidade de armazenamento e processamento de que precisam de provedores de serviços em nuvem, sem se preocupar com infraestrutura física.
+
+**Por que a nuvem para BigData**: Os provedores oferecem BDs e serviços de análise ideais para grandes volumes. Benefícios diretos:
+* Zero custo físico: Elimina os gastos com estruturas físicas de armazenamento.
+* Escalabilidade Imediata: Ajustes rápidos conforme a necessidade da empresa muda.
+* Acesso Global: Colaboração em tempo real para equipes distribuídas geograficamente.
+
+**O Ciclo de valor da informação**:
+* Coleta expandida: Uso de banco de dados internos e externos para expandir o alcançe da informação.
+* Correção e segurança: Higienização e Proteção do repositório no data lake.
+* Atividades analíticas: Interpretação estratégica dos dados processados. Identificação e resposta ás perguntas-chave do negócio.
+
+## Os 5Vs da BigData
+
+* Volume: trilhões de dados coletados diariamente, das mais variadas fontes possíveis, sobretudo de redes sociais, navegadores de internet e e-commerces. Quanto mais dados, melhor.
+* Velocidade: Reação em tempo real frente ao imenso volume de dados que devem ser analisados e tratados de forma adequada.
+* Veracidade: Garantia de que as fontes de onde os dados foram obtidos são confiáveis e imparciais.
+* Variedade: dados advindos de sistemas estruturados (atualmente pouco utilizados) e não estruturados. Diversas fontes de dados podem gerar informações de extrema importância ao serem combinadas. Auxilia análises preditivas.
+* Valor: os dados são hoje o petróleo das empresas. Deve-se verificar o poder e importância que os dados trarão à organização, bem como analisar o retorno financeiro com implementação de projetos em Big Data.
+
+**As três etapas do Big Data**:
+1. Coleta de dados: Variedade e volume. Trabalho extenso.
+2. Tratamento dos dados: Veracidade, agregação, integração, correção e segurança de dados.
+3. Atividades Analíticas: Interpretação e identificação de perguntas-chave.
