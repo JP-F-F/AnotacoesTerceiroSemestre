@@ -34,7 +34,7 @@ Define uma interface para criar um objeto, mas deixa as subclasses decidirem qua
 
 ## QUESTÃO-2.2: Diferença entre new e Factory Method.
 
-O uso do new acopla o código a uma implementação específica (classe councreta). O Factory Method promove o desacoplamento, pois o código cliente interage apenas com ma interface ou classe abstrata.  
+O uso do new acopla o código a uma implementação específica (classe concreta). O Factory Method promove o desacoplamento, pois o código cliente interage apenas com a interface ou classe abstrata.  
 
 ## QUESTÃO-2.3 a 2.6: Soluções Práticas (Logística, Provas, UI, Agendamento).
 
