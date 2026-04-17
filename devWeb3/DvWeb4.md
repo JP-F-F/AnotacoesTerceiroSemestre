@@ -83,3 +83,25 @@ AJAX de uma forma mais detalhada é a possibilidade de aplicações WEB/Mobile _
 As chamadas pelos navegadores do cliente são feitas (ambas) em HTTP Request (como toda aplicação Cliente-Servidor).
 
 Em contrapartida o retorno diferencia entre os modelos: o modelo de aplicação clássica, _o retorno é feito em HTML com CSS_ (necessitando atualizar todo a interface denavegação) e no modelo de aplicação AJAX, **o retorno é feito em XML**.
+
+![Modelos de aplicacao web](../Imagens/modelosDeAplicacaoweb.png)
+
+Analisando o navegador do cliente, no modelo clássico o retorno **interage diretamente com a interface**, enquanto no modelo de **navegação AJAX**, esse conjunto de técnicas (XHTML, CSS e JavaScript) _atualiza a interface apenas o que foi necessário_.
+
+**XHTML - EXTENSIBLE HYPERTEXT MARKUP LANGUAGE**
+
+XHTML: linguagem de marcação que especifica o formato de texto exibido em um navegador com o uso de XML (Extensible MarkupLanguage). **XHTML != HMTL**.
+
+A diferença entre o XHTML e o HTML é a s**eparação entre a apresentação de um documento**, isso é, a _aparência dele quando exibido por um navegador_, e a **estrutura da informação** que ele contém. Ou seja:
+
+* HTML - especifica a estrutura do documento e a sua formatação (onde o navegador coloca um elemento em uma página, fontes e etc);
+* XHTML - permite que apenas a estrutura de um documento apareça em um documento valido e não a sua formatação, deixando essa função para o CSS;
+
+As tags e atributos da XHTML foram criadas ("inventadas") aproveitando-se as nossas conhecidas tags e atributos da HTML.
+
+Ao usar XHTML, você estará escrevendo um código XML, onde as _tags_ e _atributos_ **já estão definidas** e isto proporciona todos os benefícios de XML sem as complicações e complexidade da SGML (Standard Generalized Markup Language).
+
+**JS - JavaScript**
+
+Javascript tem a função de **controlar o comportamento de sites**, possibilitando validar formulários, alterar informações (textos, valores, comparar, controlar, etc), alterar estilos e manipular configurações dos navegadores (quando utilizado no cliente).
+

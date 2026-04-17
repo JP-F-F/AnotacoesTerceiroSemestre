@@ -45,15 +45,18 @@ fs.readFile('config.json', 'utf8', (err, data) => {
 
 ## Questão 02: Sistema de Logs (Append e Verificação de Arquivo)
 
-Para monitorar o uso de um laboratório na FATEC, precisamos de um **sistema de logs**. I**nicialize um projeto Node.js** e configure o **arquivo package.json** para que o script principal **seja executado através do comando npm start**. O desafio consiste em criar um código que _verifique a existência_ de um arquivo chamado **log.txt**. Caso o arquivo exista, o programa deve **ler o conteúdo** e **adicionar ao final (append) uma nova linha com o texto "Novo acesso registrado em: "** seguido da data e hora atual do sistema. Caso o arquivo não exista, o script deve criá-lo automaticamente com a primeira entrada de log.
+Para monitorar o uso de um laboratório na FATEC, precisamos de um **sistema de logs**. **Inicialize um projeto Node.js** e configure o **arquivo package.json** para que o script principal **seja executado através do comando npm start**. O desafio consiste em criar um código que _verifique a existência_ de um arquivo chamado **log.txt**. Caso o arquivo exista, o programa deve **ler o conteúdo** e **adicionar ao final (append) uma nova linha com o texto "Novo acesso registrado em: "** seguido da data e hora atual do sistema. Caso o arquivo não exista, o script deve criá-lo automaticamente com a primeira entrada de log.
 
 Aqui trabalhamos com a persistência de dados e manipulação de datas[cite: 6].
 
 **Configuração `package.json`:**
 
 ````json
+
+// Criando comando personalizado
+
 "scripts": {
-  "start": "node index.js"
+  "start": "node index.js" 
 }
 ````
 
@@ -156,16 +159,18 @@ server.listen(3000);
 
 ## Questão 05: Automação de Dados (Leitura de CSV e Exportação)
 
-Como parte de uma atividade de automação de dados na FATEC, você deve desenvolver um **sistema de exportação de listas de alunos**. Após inicializar o seu projeto **com npm init**, crie um s**cript que simule a geração de um relatório**. O programa deve **ler um arquivo** chamado estudantes.csv (que você deve criar com alguns nomes e RAs) e **gerar um novo arquivo** chamado export_relatorio.txt. Este novo arquivo deve **conter o conteúdo original, mas com um cabeçalho adicional**: "Relatório Gerado para FATEC - [Data Atual]". O script deve ser **disparado através de um comando personalizado** no package.json chamado **npm run export**, garantindo que o processo de leitura e escrita utilize as funções do módulo fs para manipulação de arquivos no servidor.
+Como parte de uma atividade de automação de dados na FATEC, você deve desenvolver um **sistema de exportação de listas de alunos**. Após inicializar o seu projeto **com npm init**, crie um **script que simule a geração de um relatório**. O programa deve **ler um arquivo** chamado estudantes.csv (que você deve criar com alguns nomes e RAs) e **gerar um novo arquivo** chamado export_relatorio.txt. Este novo arquivo deve **conter o conteúdo original, mas com um cabeçalho adicional**: "Relatório Gerado para FATEC - [Data Atual]". O script deve ser **disparado através de um comando personalizado** no package.json chamado **npm run export**, garantindo que o processo de leitura e escrita utilize as funções do módulo fs para manipulação de arquivos no servidor.
 
 Simulamos um processo de ETL (Extração, Transformação e Carregamento) simples.
 
-**Configuração `package.json`:**
+**Configuração `package.json`:** criando o comando personalizado.
 ````json
 "scripts": {
   "export": "node export.js"
 }
 ````
+
+Aí depois é só rodar o comando `npm run export`, que faz referência ao export no nosso JSON que é uma referência ao nosso arquivo, fazendo assim com que o script seja executado.
 
 **Script `export.js`:**
 
@@ -193,11 +198,12 @@ fs.readFile(input, 'utf8', (err, conteudo) => {
 });
 ````
 
+**Como criar o comando personalizado**:
+
 > **Explicação Detalhada:**
 > **Workflow**: O script primeiro lê todo o conteúdo do CSV para a memória e depois escreve um novo arquivo concatenando o cabeçalho solicitado[cite: 21, 22].
 > * **`npm run export`**: É um comando customizado. Diferente do `start`, comandos criados por você exigem a palavra `run`.
 
----
 
 ## Lista de Artigos para Estudo
 
