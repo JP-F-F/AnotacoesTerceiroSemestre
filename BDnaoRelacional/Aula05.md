@@ -90,3 +90,15 @@ Com o Cloud Computing, as empresas podem alugar a capacidade de armazenamento e 
 1. Coleta de dados: Variedade e volume. Trabalho extenso.
 2. Tratamento dos dados: Veracidade, agregação, integração, correção e segurança de dados.
 3. Atividades Analíticas: Interpretação e identificação de perguntas-chave.
+
+O armazenamento em nuvem supre muito bem a necessidade de grande poder computacional que o big data exige.
+
+> Para Taurion (2013), Big Data, sobretudo no setor público, garante uma maior transparência em virtude de aumentar o acesso a dados inacessíveis até então, além de promover cruzamento de dados e consequentemente um aumento das chances de se visualizar desvios na gestão de órgãos públicos.
+
+Outro grande impacto da big data é a prevísibilidade.
+
+> Segundo Taurion (2013), há estudos que comprovam que ao se analisar os padrões comportamentais de dados, pode-se prever por exemplo o surgimento de uma pandemia, tempestade, seca ou até mesmo de uma crise financeira.
+
+**Otimização da venda cruzada**: também conhecida por ***cross-selling***, é uma prática pela qual, na compra de um produto, o usuário se depara com sugestões para incrementar sua compra.
+Essas sugestões são geradas por meio de algoritmos de identificação de padrão comportamental de consumidores.
+
